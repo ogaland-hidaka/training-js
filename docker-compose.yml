@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  node:
+    container_name: ogadocker-training-js
+    build: .
+    ports:
+      - 50000:8080
+    volumes:
+      - ./:/var/www/html
+    tty: true
