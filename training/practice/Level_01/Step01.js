@@ -1,6 +1,3 @@
-// main処理実行
-main();
-
 /**
  * 自分の名前を返す
  * @returns 自分の名前
@@ -40,3 +37,6 @@ function main() {
 
     console.log(selfInfo);
 }
+
+// main処理実行
+main();

@@ -15,9 +15,9 @@
 ## 起動
 
 ```bash
-docker-compose build                # コンテナビルド（少々時間かかるかも）
-docker-compose up -d                # コンテナ起動
-docker-compose exec node sh         # コンテナに入る
+docker compose build                # コンテナビルド（少々時間かかるかも）
+docker compose up -d                # コンテナ起動
+docker compose exec node sh         # コンテナに入る
 ```
 
 ## 研修のプログラム作成方法

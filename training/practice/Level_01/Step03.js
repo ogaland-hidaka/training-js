@@ -1,26 +1,20 @@
 /**
- * 自分の名前を返す
+ * 自分の名前を取得する
  * @returns 自分の名前
  */
-const getMyName = function () {
-    return "日高梨沙";
-}
+const getMyName = () => "日高梨沙";
 
 /**
- * 自分の所属部署を返す
+ * 自分の所属部署を取得する
  * @returns 自分の所属部署
  */
-const getDepartment = function () {
-    return "システム開発部";
-}
+const getDepartment = () => "システム開発部";
 
 /**
- * 自分の趣味を返す
+ * 自分の趣味を取得する
  * @returns 自分の趣味
  */
-const getHobby = function () {
-    return "「読書・アニメ鑑賞・カラオケ・ドライブ」";
-}
+const getHobby = () => "「読書・アニメ鑑賞・カラオケ・ドライブ」";
 
 /**
  * main処理
