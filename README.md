@@ -47,3 +47,9 @@ training
 Hello world
 /var/www/html/training #
 ```
+
+### memo
+1. Javascript研修
+```
+・Alert確認ではなく、コンソールから実行して確認をすること
+```
